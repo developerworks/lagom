@@ -53,7 +53,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -64,7 +64,8 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
+		/*font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;*/
+        /*font-family: 'Open Sans',"Trebuchet MS",Helvetica,sans-serif;*/
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
@@ -79,12 +80,12 @@
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
-	em { font-style: italic; }
+	/*em { font-style: italic; }*/
 	strong { font-weight: bold; color: #333; }
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	/*blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }*/
 	blockquote { margin: 0px; padding: 0px 20px 0 15px; border-left: 2px solid #ddd; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
@@ -113,7 +114,8 @@
 	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 12px; }
+	li { line-height: 18px; margin-bottom: 12px; margin-left: 20px;}
+    /*li { list-style: none;}*/
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 
@@ -156,7 +158,9 @@
 	  cursor: pointer;
 	  margin-bottom: 20px;
 	  line-height: 21px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  /*font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+      /*font-family: 'Open Sans',"Trebuchet MS",Helvetica,sans-serif;*/
+    }
 
 	a.button:hover,
 	button:hover,

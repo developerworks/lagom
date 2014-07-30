@@ -1,34 +1,43 @@
 # General Jekyll Config
-pygments: true
-url: http://example.com
+highlighter: true
+url: http://localhost
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
+#markdown: redcarpet
+#markdown: kramdown
+markdown: rdiscount
+#redcarpet:
+#extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
+redcarpet:
+    extensions: [fenced_code_blocks]
+    render_options:
 
 # Theme customization - please change from the defaults!
 theme:
   # Color for top bar, links, etc
   highlight_color: '#3498db'
 
+
   # Profile links on the left sidebar, leave blank to ignore
   social:
-    github: swanson
+    github: developerworks
     #bitbucket: philipj
-    hacker_news: swanson
+    #    hacker_news: swanson
     #stackexchange: 348619
     #stackoverflow: 348619
-    twitter: _swanson
+    #    twitter: _swanson
     #facebook: zuck
     #tumblr: animalygifs
     #linkedin: philipjagielski
     #gplus: 110552447039675960964
 
   # "Hi, I'm _______"
-  name: Matt Swanson
-  email: test@example.com
+  name: 雨花石
+  email: developerworks点163点com
   tagline: "weak opinions, strongly held"
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
 
   # Toggle "Postings are my own" disclaimer in footer
-  show_disclaimer: true
+  show_disclaimer: false
